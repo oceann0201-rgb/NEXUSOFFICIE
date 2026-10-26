@@ -502,7 +502,7 @@ function renderHomeHTML() {
                   <button class="btn btn-outline btn-sm" onclick="navigate('product', 'b02pro')">Xem tính năng</button>
                 </div>
               </div>
-              <img src="images/tn2.jpg" alt="Tăm nước B02PRO" style="width: 220px; height: 200px; object-fit: cover; border-radius: var(--radius-lg);">
+              <img src="images/tn_full_bento.png" alt="Tăm nước B02PRO" style="width: 260px; height: 260px; object-fit: cover; border-radius: var(--radius-lg); flex-shrink: 0;">
             </div>
           </div>
 
@@ -511,7 +511,7 @@ function renderHomeHTML() {
             <span class="bento-badge">CÔNG NGHỆ BÁN DẪN</span>
             <h3 class="bento-title">Quạt Làm Lạnh A‑014</h3>
             <p class="bento-desc">Tấm kim loại Peltier làm lạnh buốt sau 3–5 giây. 5 cấp gió cực đã.</p>
-            <img src="images/sq_qc3.jpg" alt="Quạt sạc A-014" style="width: 100%; height: 160px; object-fit: cover; border-radius: var(--radius-md); margin-bottom: 1rem;">
+            <img src="images/quat_a014_bento.png" alt="Quạt sạc A-014" style="width: 100%; height: 200px; object-fit: cover; object-position: center top; border-radius: var(--radius-md); margin-bottom: 1rem;">
             <div class="flex justify-between items-center">
               <span style="font-size: 1.3rem; font-weight: 800; color: var(--primary);">${vnd(a014.dailyPrice)}</span>
               <button class="btn btn-primary btn-sm" onclick="addToCart('a014')">Mua ngay</button>
